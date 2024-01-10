@@ -92,7 +92,11 @@ p{
     body{
         background-color: #000;
         color: #c3c3c3;
-        font-size: 1.5rem;
+        font-size: 1.6em;
+    }
+
+    header h1{
+        font-size: 2.5rem;
     }
 
     .legend{
@@ -108,11 +112,16 @@ p{
         height: auto;
     }
     
+    h3{
+        font-weight: bold;
+        font-size:1.8rem;
+    }
+
     footer {
         font-size: 1.2rem;
     }
   }
-
+/* 
 @media screen and (max-width: 992px) {
     body{
         background-color: #000;
@@ -132,6 +141,5 @@ p{
   }
   @media screen (prefers-color-scheme: dark), (min-width 1200px) {
     .element {
-      /* Styles! */
     }
-  }
+  } */
