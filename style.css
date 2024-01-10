@@ -86,12 +86,13 @@ p{
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     html{
         color: inherit;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     body{
         background-color: #000;
         color: #c3c3c3;
+        font-size: 1.5rem;
     }
 
     .legend{
@@ -107,4 +108,14 @@ p{
         height: auto;
     }
     
+    footer {
+        font-size: 1.2rem;
+    }
+  }
+
+
+  @media screen (prefers-color-scheme: dark), (min-width 1200px) {
+    .element {
+      /* Styles! */
+    }
   }
