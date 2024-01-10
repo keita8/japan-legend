@@ -113,7 +113,23 @@ p{
     }
   }
 
+@media screen and (max-width: 992px) {
+    body{
+        background-color: #000;
+        color: #c3c3c3;
+        font-size: 1.5rem;
+    }
 
+  }
+  
+  @media screen and (max-width: 600px) {
+    body{
+        background-color: #000;
+        color: #c3c3c3;
+        font-size: 1.5rem;
+    }
+
+  }
   @media screen (prefers-color-scheme: dark), (min-width 1200px) {
     .element {
       /* Styles! */
