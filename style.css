@@ -1,0 +1,110 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: inherit;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: #c3c3c3;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.introduction,
+.biographie,
+.konami,
+.success{
+    padding: 15px 10px;
+}
+
+.introduction h3,
+.biographie h3,
+.konami h3,
+.success h3{ margin-bottom: 10px;}
+
+.biographie h2{
+    margin-bottom: 20px;
+}
+
+legend{
+    padding: 15px 10px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    line-height: 1.7;
+}
+
+.description{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/*============= MEDIA QUERIES==================*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    html{
+        color: inherit;
+        font-size: 1.2rem;
+    }
+    
+    body{
+        background-color: #000;
+        color: #c3c3c3;
+    }
+
+    .legend{
+        display: none;
+    }
+
+    figure>p{
+        font: .8rem;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+  }
